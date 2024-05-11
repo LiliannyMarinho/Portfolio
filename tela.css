@@ -1,10 +1,19 @@
+@font-face {
+    font-family: Fonte1;
+    src: url(/fontes/CamelliaSignatureDEMO!-DEMO!.otf);
+}
+@font-face {
+    font-family: Fonte2;
+    src: url(/fontes/Elegante\ Classica.ttf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+    font-family: Fonte2;
 }
 
 body {
@@ -28,6 +37,7 @@ header {
     color:rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: Fonte1;
 }
 
 .navmenu {
@@ -57,8 +67,9 @@ header {
 }
 
 .home-img img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-left: 60px;
 }
 
 .home-text h2 {
@@ -100,6 +111,7 @@ header {
     text-align: center;
     background: rgb(7, 21, 102);
     transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
@@ -137,4 +149,9 @@ header {
     font-weight: 600;
     display: flex;
     align-items: center;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
