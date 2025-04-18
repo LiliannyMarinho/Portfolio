@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #8f9ef8;
+    height: 100vh;
+}
+.interface{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #000524;
+    text-decoration: none;
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+.logo img{
+    width: 300px;
+    height: 250px;
+}
