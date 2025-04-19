@@ -71,3 +71,13 @@ main div img{
     height: auto;
     border-radius: 70px;
 }
+#typewriter, #typewriter-subtitle {
+    display: block;
+    min-height: 40px;
+    animation: blink 0.7s infinite;
+}
+#typewriter-subtitle {
+    min-height: 30px; 
+}
+
+
