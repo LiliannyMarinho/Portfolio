@@ -15,6 +15,21 @@ body{
 .flex{
     display: flex;
 }
+.btn-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #000524;
+    transition: .2s;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #ffffff49;
+    transform: scale(1.05);
+}
 
 header{
     padding-top: 2px;
@@ -49,35 +64,53 @@ header nav ul li{
     width: 120px;
     height: 90px;
 }
-header .btn-contato button{
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: #ffffff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    color: #000524;
-}
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #ffffff49;
-}
 
-section .topo-do-dite{
+section .topo-do-site{
     padding: 40px 4%;
 }
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
 main div img{
-    width: 90%;
+    width: 80%;
     height: auto;
     border-radius: 70px;
+    transition: .4s;
+}
+main div img:hover{
+    transform: scale(1.05);
+}
+.topo-do-site h1{
+    color: #ffffff;
+    font-size: 38px;
+}
+.topo-do-site h6{
+    color: #ffffff;
+}
+.topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0;
 }
 #typewriter, #typewriter-subtitle {
     display: block;
-    min-height: 40px;
+    min-height: 60px;
     animation: blink 0.7s infinite;
 }
 #typewriter-subtitle {
-    min-height: 30px; 
+    min-height: 30px;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-
+@keyframes flutuar{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 30px;
+    }
+}
